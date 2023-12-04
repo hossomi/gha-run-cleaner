@@ -1,0 +1,17 @@
+{
+  "name": "github-actions-run-cleaner",
+  "version": "1.0.0",
+  "description": "GitHub Actions run cleaner",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "parse-link-header": "^2.0.0",
+    "yargs": "^17.7.2"
+  }
+}
